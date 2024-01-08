@@ -1,11 +1,11 @@
 body {
     font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
-   
+
 }
 
 .banner {
-    /* display: flex; */
+
     background-image: url('Images/banner.png');
     background-repeat: no-repeat;
     border-radius: 16px;
@@ -18,8 +18,7 @@ body {
     height: 600px;
     flex-shrink: 0;
     margin-top: 50px;
-    /* margin-left: 140px;
-    margin-right: 120px; */
+
 
 
 }
@@ -30,9 +29,7 @@ body {
 
     font-size: 25px;
     padding: 150px;
-    /* font-style: normal;
-font-weight: 400;
-line-height: normal; */
+
 }
 
 .main-title {
@@ -40,12 +37,12 @@ line-height: normal; */
     text-align: center;
     font-family: Merriweather;
     font-size: 50px;
-    /* font-style: normal;
-font-weight: 900; */
+
     line-height: 95px;
-    /* 131.944% */
+
 }
 
+/* MAIN SECTION 1 */
 .new-year-deals {
     text-align: center;
     margin-left: 140px;
@@ -59,9 +56,7 @@ font-weight: 900; */
 
     font-family: Inter;
     font-size: 88px;
-    /* font-style: normal;
-font-weight: 700;
-line-height: normal; */
+
 }
 
 .new-year {
@@ -78,68 +73,43 @@ line-height: normal; */
 
 }
 
-/* Midnight party section  */
+/* Midnight party section 2 */
 .midnight-party {
-    font-family: Arial, sans-serif;
-    text-align: left;
-    background-image: url('Images/Vectorrr.png');
-    background-repeat: no-repeat;
-    background-position: cover;
-    margin-left: 140px;
-    margin-right: 120px;
-
-    width: 1320px;
-    height: 600px;
-    /* margin-left: 140px;
-    margin-right: 10px; */
-
-    align-items: center;
-
-
-
-}
-
-/* .midnight-party{
-    bottom: 50%;
-    width: 1320;
-    height: 60px;
-    position: absolute;
-    background-repeat: no-repeat;
-    left: 7.75%;
-    right:  7.75%;
-    top: 300%;
-    background: rgba(45,9,17,0)100%;
-} */
-
-/* .image {
-    position: ;
+    border-radius: 16px;
+    color: aliceblue;
     display: flex;
-width: 280px;
-height: 400px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px 20px 100px;
+}
 
-flex-direction: column;
- justify-content: center; 
-align-items: ri;
-
-} */
-
-.welcome-message {
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    padding-top: 120px;
-    padding-left: 100px;
+.midnight-party .mid1 {
+    width: 60%;
+    padding: 4%;
 
 }
 
-.description {
-    color: rgba(255, 255, 255, 0.80);
-    /* margin-bottom: 30px; */
-    font-size: 18px;
-    padding-top: 50px;
-    padding-left: 100px;
+.midnight-party .mid2 {
+    width: 40%;
+    padding: 4%;
+
 }
+
+.midnight-party .h1 {
+    font-size: 50px;
+    bottom: 20px;
+}
+
+.midnight-party .p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 .join-now-button {
     color: #b76a6a;
@@ -153,19 +123,20 @@ align-items: ri;
 
 }
 
+/* MAIN SECTION 3 */
+
 .countdown-container {
     display: block;
-    /* justify-content: center;
-    align-items: center; */
 
-    /* gap: 30px; */
+
     background-color: #ffdfdf;
     width: 680px;
     height: 180px;
+    margin: 70px 30px 20px 100px;
 
-    margin-left: 140px;
+    /* margin-left: 140px;
     margin-right: 120px;
-    margin-top: 100px;
+    margin-top: 100px; */
     padding-top: 100px;
     padding-bottom: 214px;
     padding-left: 280px;
@@ -190,6 +161,7 @@ align-items: ri;
     border-radius: 5px;
     margin-top: 40px;
     border-style: none;
+    cursor: pointer;
 
 
 }
@@ -219,4 +191,154 @@ align-items: ri;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+}
+
+/* MAIN SECTION 4  */
+.bonus {
+    /* margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 100px; */
+    width: 1360px;
+    height: 180px;
+    display: flex;
+    margin: 70px 30px 30px 100px;
+    
+    padding:60px;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: space-around;
+    align-items:center;
+    
+    background: linear-gradient(rgb(208, 43, 136),white);
+    
+}
+
+
+
+.bonus .color1 {
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.bonus .same1 {
+    text-align: left;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 400;
+
+
+}
+
+.bonus .color2 {
+    color: #F00;
+    text-align: right;
+    font-size: 24px;
+    padding-right: 150px;
+    
+
+    font-weight: 500;
+
+}
+
+.bonus .same2 {
+    text-align: right;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+.bonus .d2{
+    text-align: center;
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+.d3 .imag1 {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* MAIN SECTION 5 */
+
+.sect5{
+    text-align: center;
+    justify-content: center;
+    padding:30px 30px 10px 30px;
+    margin:0px 100px 10px 100px;
+}
+.sect5 h4{
+    margin-bottom:20px;
+}
+.sect5 h1{
+    margin-bottom:20px;
+    font-size: 50px;
+    font-family: 'Salsa', cursive;
+}
+.sect5 p{
+  padding:0px 100px 5px 100px;
+  margin-bottom: 40px;
+}
+.sect5 h1 span{
+    color:red;
+}
+
+.box{
+     height:300px;
+    width: 1360px; 
+    position:relative;
+    background: #FFF;
+    margin: 400px 30px 20px 100px;
+   
+
+  }
+  .box .line{
+    height:200px;
+    width:1320px;
+    position:absolute;
+    bottom:0px;
+    
+  }
+  .box .obox{
+    position:absolute;
+    height: 662.07px;
+    width:796.463px;
+    top:0;
+    margin-top:0px;
+  }
+  .box .model{
+    position:absolute;
+    height:433px;
+    width:429px;
+    top:0;
+    right:0;
+    
+  }
+.box .disc{
+    position:absolute;
+    width:100px;
+    right:150px;
+    top:100px;
 }
